@@ -1,5 +1,4 @@
 const net = require("net");
-const { connected } = require("process");
 
 // establishes a connection with the game server
 const connect = function () {
