@@ -18,7 +18,6 @@ const connect = function () {
 
   conn.on("connect", () => {
     const interval = setInterval(() => {
-      //conn.write("Move: up");
     }, 50)
   });  
 
