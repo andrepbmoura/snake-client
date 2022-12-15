@@ -1,6 +1,6 @@
-// setup interface to handle user input from stdin
 let conn;
 
+// setup interface to handle user input from stdin
 const setupInput = function (connection) {
   conn = connection;
   const stdin = process.stdin;
@@ -11,8 +11,15 @@ const setupInput = function (connection) {
   return stdin;
 };
 
+// handles user input from stdin with the callback function
 const handleUserInput = function (key) {
-  if (key === "w") {
+  if (key === "q") {
+    conn.write("Say: LOL");
+  } else if (key === "e") {
+    conn.write("Say: WoW");
+  } else if (key === "r") {
+    conn.write("Say: -_-");
+  } else if (key === "w") {
     conn.write("Move: up");
   } else if (key === "a") {
     conn.write("Move: left");
@@ -25,4 +32,4 @@ const handleUserInput = function (key) {
   }
 };
 
-module.exports = { setupInput };
+module.exports = { setupInput }; //exports setupInput to be available globally

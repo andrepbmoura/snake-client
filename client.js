@@ -7,8 +7,8 @@ const connect = function () {
     port: 50541
   });
 
-  conn.on("data", () => {
-    console.log("you ded cuz you idled"); //output a message from the server
+  conn.on("data", (data) => {
+    console.log(data); //output when a data is received, usually when the user is not moving.
   });
 
   conn.on("connect", () => {
@@ -25,7 +25,8 @@ const connect = function () {
   // interpret incoming data as text
   conn.setEncoding("utf8");
 
+  //return the connection
   return conn;
 };
 
-module.exports = { connect }; //exports the connect function
+module.exports = { connect }; //exports the connect function to be available globally
