@@ -8,7 +8,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!(screenshot 01.jpeg)
+![screenshot 01.jpeg](#)
 !["screenshot description"](#)
 
 
