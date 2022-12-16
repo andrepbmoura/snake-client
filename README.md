@@ -8,8 +8,15 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-![screenshot 01.jpeg](screenshot 01.jpeg)
-!["screenshot description"](/users/andremoura/Desktop/screenshot 01.jpeg)
+![screenshot 01](https://user-images.githubusercontent.com/63623777/208187806-f80fa2bd-d548-4f42-abea-18fe286220ea.jpeg)
+
+![screenshot 01 2](https://user-images.githubusercontent.com/63623777/208187826-94b15239-e172-4a82-abc2-6043fed64abb.jpeg)
+
+![screenshot 01 3](https://user-images.githubusercontent.com/63623777/208187850-513c513c-a1f8-4e1c-865e-9f241d87211e.jpeg)
+
+![screenshot 01 4](https://user-images.githubusercontent.com/63623777/208187858-ec9b391d-031a-4054-8e4a-50ccfded2cf9.jpeg)
+
+
 
 ## Getting Started
 
